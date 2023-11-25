@@ -1,6 +1,5 @@
 from aiogram import types
 from aiogram.types import ReplyKeyboardRemove
-from aiogram.dispatcher.filters.builtin import CommandStart
 from loader import dp, db, bot
 import aioschedule
 import asyncio
@@ -28,7 +27,7 @@ async def scheduler(message: types.Message):
     # print(h_two)
 
     today = h_one.get('data')[days]['date']['readable']
-    aioschedule.every().day.at("17:00").do(remind_prayer_time)
+    # aioschedule.every().day.at("17:00").do(remind_prayer_time)
     while True:
         await aioschedule.run_pending()
         await asyncio.sleep(1)

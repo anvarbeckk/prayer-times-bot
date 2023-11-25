@@ -50,7 +50,7 @@ help_message = (
     "<i>/prayer_times</i> - get prayer times for the day (will send tomorrow's"
     " prayer times if there are no prayers left for today)\n"
     "is frozen, try running this command)\n\n"
-    "If you encounter any issues, please reach out to @anvar1234\n"
+    "If you encounter any issues, please reach out to @anvarbeckk\n"
 )
 
 

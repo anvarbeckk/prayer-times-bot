@@ -9,14 +9,12 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
 from pathlib import Path
 from environs import Env
 
 env = Env()
 
 env.read_env()
-
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -44,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # dj-q
-    'django_q',
+    # 'django_q',
 
     # my-apps
     'main',
@@ -144,28 +142,28 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-Q_CLUSTER = {
-    'name': 'mycluster',
-    'workers': 4,
-    'timeout': 60,
-    'retry': 120,
-    'queue_limit': 50,
-    'bulk': 10,
-    'orm': 'default',
-    'poll': 10,
-    'save_limit': 100,
-    'cpu_affinity': 1,
-    'label': 'Django Q',
-    'redis': {
-        'host': 'localhost',
-        'port': 6379,
-        'db': 0,
-        'password': '',
-        'socket_timeout': 3,
-        'socket_connect_timeout': 3,
-        'retry_on_timeout': True,
-        'max_connections': 10,
-        'parser_class': 'redis.connection.HiredisParser',
-        'health_check_interval': 30,
-    },
-}
+# Q_CLUSTER = {
+#     'name': 'mycluster',
+#     'workers': 4,
+#     'timeout': 60,
+#     'retry': 120,
+#     'queue_limit': 50,
+#     'bulk': 10,
+#     'orm': 'default',
+#     'poll': 10,
+#     'save_limit': 100,
+#     'cpu_affinity': 1,
+#     'label': 'Django Q',
+#     'redis': {
+#         'host': 'localhost',
+#         'port': 6379,
+#         'db': 0,
+#         'password': '',
+#         'socket_timeout': 3,
+#         'socket_connect_timeout': 3,
+#         'retry_on_timeout': True,
+#         'max_connections': 10,
+#         'parser_class': 'redis.connection.HiredisParser',
+#         'health_check_interval': 30,
+#     },
+# }
