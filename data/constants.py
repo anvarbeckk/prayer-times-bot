@@ -28,8 +28,8 @@ GET_TIMES_URL = "http://api.aladhan.com/v1/calendarByCity"
 
 introduction = (
     "As-salamu alaykum! I will remind you when it's time to pray so you "
-    "never miss a prayer again!"
-    "click <i>/prayer_times</i> to find out prayer times"
+    "never miss a prayer again!\n\n"
+    "<b><i>click <i>/prayer_times</i> to find out prayer times</i></b>"
 )
 
 FIRST_TIME_USER = (
