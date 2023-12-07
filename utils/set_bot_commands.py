@@ -10,5 +10,3 @@ async def set_default_commands(dp):
             types.BotCommand(command="prayer_times", description="seeing prayer times")
         ]
     )
-
-    await dp.bot.set_my_commands()
