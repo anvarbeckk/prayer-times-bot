@@ -27,7 +27,7 @@ async def bot_start(message: types.Message):
             introduction)
         await message.answer(see_help)
     else:
-        await bot.send_message(chat_id=ADMINS[0], text=f"@{username} has already been added to the database")
+        # await bot.send_message(chat_id=ADMINS[0], text=f"@{username} has already been added to the database")
         await message.answer(introduction)
         await message.answer(see_help)
 
