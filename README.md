@@ -8,3 +8,5 @@
 [Support me on Buy Me a Coffee](https://www.buymeacoffee.com/paytechuz)
 
 If you find this project helpful, consider [buying me a coffee](https://www.buymeacoffee.com/paytechuz).
+
+[![Support Me on Buy Me a Coffee](https://img.shields.io/badge/Support%20Me%20on-Buy%20Me%20a%20Coffee-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/paytechuz)
