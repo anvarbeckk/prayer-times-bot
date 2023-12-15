@@ -47,8 +47,7 @@ help_message = (
     f"\n<b>Commands</b>\n"
     "<i>/start</i> - initial setup process\n"
     "<i>/help</i> - detailed info on commands and extra notes\n"
-    "<i>/prayer_times</i> - get prayer times for the day (will send tomorrow's"
-    " prayer times if there are no prayers left for today)\n"
+    "<i>/prayer_times</i> - get prayer times for the day\n"
     "is frozen, try running this command)\n\n"
     "If you encounter any issues, please reach out to @anvarbeckk\n"
 )
