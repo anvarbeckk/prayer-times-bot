@@ -48,7 +48,6 @@ help_message = (
     "<i>/start</i> - initial setup process\n"
     "<i>/help</i> - detailed info on commands and extra notes\n"
     "<i>/prayer_times</i> - get prayer times for the day\n"
-    "is frozen, try running this command)\n\n"
     "If you encounter any issues, please reach out to @anvarbeckk\n"
 )
 
