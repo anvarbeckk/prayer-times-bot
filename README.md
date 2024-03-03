@@ -1,5 +1,7 @@
 # PrayerTimesBot
 
+![prayertimebot-ezgif com-optimize](https://github.com/anvarbeckk/prayer-times-bot/assets/121457366/dc720553-d73c-43a7-a427-4b03c04c7308)
+
 ### 1. Create virtual environment and install packages
 Windows
 ```shell
